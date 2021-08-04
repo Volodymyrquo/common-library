@@ -8,7 +8,7 @@
   }
 
   &__block-btn-scroll {
-    @media(max-width: 570px) {
+    @media (max-width: 570px) {
       overflow-x: scroll;
     }
   }
@@ -39,8 +39,9 @@
 
   &__btn-active {
     padding: 8px 20px;
-    background: #7165E3;
-    box-shadow: 0px 10px 20px rgba(97, 105, 255, 0.1), 0px 10px 20px rgba(97, 105, 255, 0.1);
+    background: #7165e3;
+    box-shadow: 0px 10px 20px rgba(97, 105, 255, 0.1),
+      0px 10px 20px rgba(97, 105, 255, 0.1);
     border-radius: 4px;
 
     font-family: DM Sans;
@@ -48,14 +49,14 @@
     font-weight: bold;
     font-size: 13px;
     line-height: 100%;
-    color: #FFFFFF;
+    color: #ffffff;
   }
 
   &__block-table {
     position: relative;
     display: flex;
 
-    @media(max-width: 788px) {
+    @media (max-width: 788px) {
       overflow-x: scroll;
     }
   }
@@ -68,7 +69,7 @@
 
   &__block-table-fixed {
     width: 100%;
-    @media(max-width: 788px) {
+    @media (max-width: 788px) {
       width: 764px !important;
     }
   }
@@ -83,12 +84,11 @@
     line-height: 100%;
     color: #828496;
 
-    background: #FAFAFC;
+    background: #fafafc;
     mix-blend-mode: normal;
-    box-shadow: inset 0px -2px 0px #EDEDEE;
+    box-shadow: inset 0px -2px 0px #ededee;
     cursor: default;
     white-space: nowrap;
-
   }
 
   &__td {
@@ -99,9 +99,9 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 100%;
-    color: #2E3140;
-    background: #FFFFFF;
-    box-shadow: inset 0px -2px 0px #F0F0F6;
+    color: #2e3140;
+    background: #ffffff;
+    box-shadow: inset 0px -2px 0px #f0f0f6;
     cursor: default;
     padding: 8px 12px !important;
   }
@@ -118,7 +118,7 @@
     font-weight: 500;
     font-size: 13px;
     line-height: 100%;
-    color: #959BAD;
+    color: #959bad;
   }
 
   &__td-img {
@@ -133,7 +133,7 @@
     font-weight: normal;
     font-size: 14px;
     line-height: 100%;
-    color: #5C5D6A;
+    color: #5c5d6a;
   }
 
   &__td-img-dolar {
@@ -143,8 +143,8 @@
   }
 
   &__user {
-    background: #2A2D4C !important;
-    box-shadow: inset 0px -2px 0px #F0F0F6 !important;
+    background: #2a2d4c !important;
+    box-shadow: inset 0px -2px 0px #f0f0f6 !important;
   }
 
   &__th-user {
@@ -153,7 +153,7 @@
     font-weight: normal;
     font-size: 14px;
     line-height: 31px;
-    color: #FFFFFF;
+    color: #ffffff;
     text-align-last: left;
   }
 
@@ -184,19 +184,19 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 100%;
-    color: #7165E3;
+    color: #7165e3;
     cursor: pointer;
     white-space: nowrap;
 
     &::after {
-      content: "";
+      content: '';
       position: absolute;
       right: -20px;
       top: 3px;
       width: 8px;
       height: 8px;
-      border-top: 1px solid #7165E3;
-      border-left: 1px solid #7165E3;
+      border-top: 1px solid #7165e3;
+      border-left: 1px solid #7165e3;
       transform: rotate(225deg);
       cursor: pointer;
     }
@@ -215,15 +215,14 @@
     margin-left: 25px;
     align-self: flex-start;
 
-
-    @media(max-width: 1345px) {
+    @media (max-width: 1345px) {
       position: absolute;
       top: -205px;
       right: 0;
       z-index: -1;
     }
 
-    @media(max-width: 788px) {
+    @media (max-width: 788px) {
       display: none;
     }
   }
@@ -244,10 +243,11 @@
     padding: 25px 25px 40px 25px;
     min-width: 335px;
     background: linear-gradient(329.61deg, #191932 0%, #313557 100%);
-    box-shadow: 0px 10px 20px rgba(97, 105, 255, 0.1), 0px 10px 20px rgba(97, 105, 255, 0.1);
+    box-shadow: 0px 10px 20px rgba(97, 105, 255, 0.1),
+      0px 10px 20px rgba(97, 105, 255, 0.1);
     border-radius: 10px;
 
-    @media(max-width: 359px) {
+    @media (max-width: 359px) {
       width: 100%;
       min-width: 100%;
       padding: 20px 10px 35px;
@@ -260,7 +260,7 @@
     font-weight: bold;
     font-size: 16px;
     line-height: 100%;
-    color: #FFFFFF;
+    color: #ffffff;
   }
 
   &__inner {
@@ -291,7 +291,7 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 100%;
-    color: #FFFFFF; 
+    color: #ffffff;
   }
 
   &__month-title {
@@ -300,7 +300,7 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 100%;
-    color: #FFFFFF;
+    color: #ffffff;
     opacity: 0.65;
   }
 
@@ -311,7 +311,7 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 100%;
-    color: #1FDCB2;
+    color: #1fdcb2;
   }
 
   &__earnings-number {
@@ -321,7 +321,7 @@
     font-weight: 500;
     font-size: 15px;
     line-height: 100%;
-    color: #FFFFFF !important;
+    color: #ffffff !important;
     opacity: 1;
   }
 
@@ -345,7 +345,7 @@
     align-items: center;
     margin-top: 30px;
     padding: 20px 15px;
-    background: #FFFFFF;
+    background: #ffffff;
     box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.05);
     border-radius: 5px;
     width: 100%;
@@ -363,7 +363,7 @@
     font-weight: 500;
     font-size: 15px;
     line-height: 100%;
-    color: #2E3140;
+    color: #2e3140;
     white-space: nowrap;
     padding-right: 5px;
 
@@ -381,7 +381,12 @@
     left: 170px;
     top: 0px;
     padding-left: 5px;
-    background: linear-gradient(180deg, rgba(232, 237, 255, 0.75) 0%, rgba(255, 255, 255, 0.75) 100%), #FFFFFF;
+    background: linear-gradient(
+        180deg,
+        rgba(232, 237, 255, 0.75) 0%,
+        rgba(255, 255, 255, 0.75) 100%
+      ),
+      #ffffff;
     box-shadow: 0px 7px 15px rgba(97, 105, 255, 0.1);
     border-radius: 4px;
 
@@ -390,12 +395,12 @@
     font-weight: bold;
     font-size: 12.5px;
     line-height: 100%;
-    color: #7165E3;
+    color: #7165e3;
 
     &::after {
       position: relative;
       top: -3px;
-      content: "\2192";
+      content: '\2192';
       display: flex;
       vertical-align: top;
       font-size: 20px;
@@ -404,7 +409,7 @@
 
   &__inner-2-scroll {
     margin-top: 20px;
-    background: #FFFFFF;
+    background: #ffffff;
     box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.05);
     border-radius: 10px;
   }
@@ -424,8 +429,8 @@
     overflow-x: scroll;
     box-sizing: border-box;
 
-    &::-webkit-scrollbar { 
-      display: none; 
+    &::-webkit-scrollbar {
+      display: none;
     }
   }
 
