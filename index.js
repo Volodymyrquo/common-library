@@ -1,0 +1,1 @@
+export {* as styles} from "./src/assets/scss/main.scss";
