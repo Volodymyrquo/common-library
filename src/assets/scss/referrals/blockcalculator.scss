@@ -2,12 +2,17 @@
   display: flex;
   width: 100%;
 
-  &__box-4-inner{
+  &__box-4-inner {
     position: relative;
     min-width: 234px;
     width: 50%;
     margin-right: 30px;
-    background: linear-gradient(180deg, rgba(113, 101, 227, 0.17) -15%, rgba(113, 101, 227, 0) 26.02%), #FFFFFF;
+    background: linear-gradient(
+        180deg,
+        rgba(113, 101, 227, 0.17) -15%,
+        rgba(113, 101, 227, 0) 26.02%
+      ),
+      #ffffff;
     box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.05);
     border-radius: 10px;
 
@@ -57,7 +62,7 @@
     text-align: center;
     letter-spacing: 0.25px;
     text-transform: uppercase;
-    color: #8993A4;
+    color: #8993a4;
   }
 
   &__level-title {
@@ -79,9 +84,9 @@
     width: 105px;
     height: 30px;
     justify-self: center;
-    background: #0061FF;
+    background: #0061ff;
     border-radius: 3px;
-    color: #FFFFFF;
+    color: #ffffff;
     font-family: Archivo;
     font-style: normal;
     font-weight: 500;
@@ -90,8 +95,8 @@
 
     &:hover {
       box-shadow: 0 0 10px 0 hsl(204, 70%, 53%) inset,
-      0 0 10px 4px hsl(204, 70%, 53%);
-      color: #FFFFFF;
+        0 0 10px 4px hsl(204, 70%, 53%);
+      color: #ffffff;
     }
   }
 
@@ -129,7 +134,7 @@
     font-weight: bold;
     font-size: 16px;
     line-height: 100%;
-    color: #FFFFFF;
+    color: #ffffff;
     padding-bottom: 4px;
   }
 
@@ -185,10 +190,11 @@
     width: 139px;
     height: 48px;
 
-    background: #413E85;
+    background: #413e85;
     border: 2px solid rgba(113, 101, 227, 0.65);
     box-sizing: border-box;
-    box-shadow: 0px 10px 20px rgba(97, 105, 255, 0.1), 0px 10px 20px rgba(97, 105, 255, 0.1);
+    box-shadow: 0px 10px 20px rgba(97, 105, 255, 0.1),
+      0px 10px 20px rgba(97, 105, 255, 0.1);
     border-radius: 5px;
 
     font-family: DM Sans;
@@ -196,7 +202,7 @@
     font-weight: bold;
     font-size: 20px;
     line-height: 100%;
-    color: #FFFFFF;
+    color: #ffffff;
     text-align: right;
     outline: none;
 
@@ -223,10 +229,11 @@
     width: 103px;
     height: 48px;
 
-    background: #413E85;
+    background: #413e85;
     border: 2px solid rgba(113, 101, 227, 0.65);
     box-sizing: border-box;
-    box-shadow: 0px 10px 20px rgba(97, 105, 255, 0.1), 0px 10px 20px rgba(97, 105, 255, 0.1);
+    box-shadow: 0px 10px 20px rgba(97, 105, 255, 0.1),
+      0px 10px 20px rgba(97, 105, 255, 0.1);
     border-radius: 5px;
 
     font-family: DM Sans;
@@ -234,7 +241,7 @@
     font-weight: bold;
     font-size: 20px;
     line-height: 100%;
-    color: #FFFFFF;
+    color: #ffffff;
     outline: none;
 
     @media (max-width: 526px) {
@@ -253,7 +260,7 @@
     height: 48px;
     margin-top: 15px;
 
-    background: linear-gradient(90deg, #FA9E4F 0%, #FDB946 100%);
+    background: linear-gradient(90deg, #fa9e4f 0%, #fdb946 100%);
     box-shadow: 0px 10px 20px rgba(62, 37, 115, 0.2);
     border-radius: 5px;
 
@@ -262,7 +269,7 @@
     font-weight: bold;
     font-size: 20px;
     line-height: 48px;
-    color: #FFFFFF;
+    color: #ffffff;
     text-align: center;
 
     @media (max-width: 526px) {
@@ -277,8 +284,9 @@
     height: 37px;
     display: block;
     margin-top: 30px;
-    background: #7165E3;
-    box-shadow: 0px 10px 20px rgba(97, 105, 255, 0.1), 0px 10px 20px rgba(97, 105, 255, 0.1);
+    background: #7165e3;
+    box-shadow: 0px 10px 20px rgba(97, 105, 255, 0.1),
+      0px 10px 20px rgba(97, 105, 255, 0.1);
     border-radius: 4px;
 
     font-family: DM Sans;
@@ -286,7 +294,7 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 100%;
-    color: #FAFAFC;
+    color: #fafafc;
     transition: transform 0.4s;
 
     &:hover {
@@ -319,9 +327,9 @@
   position: relative;
   width: 8px;
   height: 1px;
-  background-color: #FFFFFF;
-  box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
-  left:0;
+  background-color: #ffffff;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+  left: 0;
   display: block;
 
   &::after {
@@ -331,7 +339,7 @@
     height: 1px;
     top: -1px;
     right: -1px;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     transform: rotate(45deg);
   }
 
@@ -342,20 +350,20 @@
     height: 1px;
     top: 1px;
     right: -1px;
-    background-color: #FFFFFF;
-    box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
+    background-color: #ffffff;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
     transform: rotate(-45deg);
   }
 }
 
 @keyframes arrow-hover {
   0% {
-      left:0;
+    left: 0;
   }
   50% {
-      left:10px;
+    left: 10px;
   }
   100% {
-      left:0;
+    left: 0;
   }
 }
